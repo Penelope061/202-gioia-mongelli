@@ -486,6 +486,42 @@ footer .social-icons p i {
   background: #ED8E82;
 }
 
+
+/* --- 404 Page --- */
+
+.page-404 {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.page-404 h2 {
+	font-weight: bold;
+	font-size: 2.25em;
+	color: #ED8E82;
+	line-height:  1em;
+	padding: 25px 0;
+	margin: 80px 0 30px;
+}
+
+.page-404 p {
+	margin: 0 auto;
+	width: 17.5em;
+	margin-bottom: 60px;
+}
+
+.page-404 a {
+	background: #F2F2F2;
+	padding: 15px 20px;
+	font-weight: 300;
+	font-style: italic;
+	color: #262526;
+}
+
+.page-404 a:hover {
+	color: #ED8E82;
+}
+
+
 /* End Mobile Style */
 
 
@@ -660,6 +696,14 @@ footer .social-icons p i {
 	footer .social-icons p i {
 	font-size: 1.3125em;
 	}
+	
+	/* --- Page 404 --- */
+	
+	.page-404 {
+	flex-flow: column wrap;
+	margin-top: 200px;
+	text-align: center;
+}
     
 }
 
